@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px">
+        <th>
+            id
+        </th>
+        <th>
+            mark
+        </th>
+        <tr>
+                <td>
+                    1
+                </td>
+                <td>
+                    35
+                </td>
+            </tr>
+            <tr>
+                    <td>
+                        2
+                    </td>
+                    <td>
+                        45
+                    </td>
+                </tr>
+        <tr>
+            <td>
+                3
+            </td>
+            <td>
+                55
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+<script>
+        for (let index = 0; index <3; index++){
+            element = "<tr><th>"+(index+1)+"</th> <th>"+(20+index)+"</th></tr>";
+            document.write(element);
+        }
+    </script>
